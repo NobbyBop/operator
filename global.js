@@ -9,6 +9,10 @@ let R_CLICK = 0
 let NUM_GRID_COLS = 0
 let NUM_GRID_ROWS = 0
 
+// How far from the left and top the grid is ON THE CANVAS.
+const GRID_OFFSET_X = 50
+const GRID_OFFSET_Y = 50
+
 let LEVEL = []
 
 const CANVAS = document.getElementById("canvas")
